@@ -1,4 +1,4 @@
-divisoresEuclides :: Integer -> Integer -> [Integer]insistió varias veces con que era petisito para llegar a la cumbre de los insultos con el "la parrillita no está a su altura"
+divisoresEuclides :: Integer -> Integer -> [Integer]
 divisoresEuclides 1 k = [1]
 divisoresEuclides n k | k > (n-1) = [n]
                       | n `mod` k == 0 = k : divisoresEuclides (n `quot` k) (k)
